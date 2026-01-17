@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Send } from 'lucide-react';
 
 export default function Chat({ workflow }) {
-  const [messages, setMessages] = [](https://github.com/useState)([]);
+  const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
