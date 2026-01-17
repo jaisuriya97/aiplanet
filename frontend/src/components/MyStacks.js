@@ -6,30 +6,7 @@ export default function MyStacks() {
   const navigate = useNavigate();
   
   const stacks = [
-    {
-      id: 1,
-      name: 'Chat With AI',
-      description: 'Chat with a smart AI',
-      icon: '💬'
-    },
-    {
-      id: 2,
-      name: 'Content Writer',
-      description: 'Helps you write content',
-      icon: '✍️'
-    },
-    {
-      id: 3,
-      name: 'Content Summarizer',
-      description: 'Helps you summarize content',
-      icon: '📝'
-    },
-    {
-      id: 4,
-      name: 'Information Finder',
-      description: 'Helps you find relevant information',
-      icon: '🔍'
-    }
+   
   ];
 
   return (
